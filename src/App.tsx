@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <>
+    <main>
       <Navbar />
       <div className="max-w-7xl mx-auto pt-20 px-6">
         <Hero />
@@ -18,7 +18,7 @@ function App() {
         <Testimonials />
         <Footer />
       </div>
-    </>
+    </main>
   );
 }
 
