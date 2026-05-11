@@ -34,7 +34,8 @@ const Hero = () => {
           autoPlay
           loop
           muted
-          className="rounded-lg w-1/2 border border-orange-700 shadow-sm shadow-orange-400 mx-2 my-4"
+          playsInline
+          className="pointer-events-none rounded-lg w-1/2 border border-orange-700 shadow-sm shadow-orange-400 mx-2 my-4"
         >
           <source
             src="https://res.cloudinary.com/dosqnvzhy/video/upload/v1778473764/video1_ljsohl.mp4"
@@ -46,7 +47,8 @@ const Hero = () => {
           autoPlay
           loop
           muted
-          className="rounded-lg w-1/2 border border-orange-700 shadow-sm shadow-orange-400 mx-2 my-4"
+          playsInline
+          className="pointer-events-none rounded-lg w-1/2 border border-orange-700 shadow-sm shadow-orange-400 mx-2 my-4"
         >
           <source
             src="https://res.cloudinary.com/dosqnvzhy/video/upload/v1778473764/video1_ljsohl.mp4"
