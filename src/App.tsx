@@ -1,9 +1,17 @@
-import "./App.css";
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
+import Features from "./components/Features";
+import Workflow from "./components/Workflow";
 
 function App() {
   return (
     <>
-      <h1 className="text-red-500">Hello World</h1>
+      <Navbar />
+      <div className="max-w-7xl mx-auto pt-20 px-6">
+        <Hero />
+        <Features />
+        <Workflow />
+      </div>
     </>
   );
 }
