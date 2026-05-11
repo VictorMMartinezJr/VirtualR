@@ -16,7 +16,7 @@ const Hero = () => {
       </p>
 
       {/* CTA Buttons */}
-      <div className="flex justify-center my-10">
+      <div className="flex flex-col space-y-4 xs:flex-row xs:space-y-0 justify-center my-10">
         <a
           href="#"
           className="bg-linear-to-r from-orange-500 to-orange-800 py-3 px-4 mx-3 rounded-md"
